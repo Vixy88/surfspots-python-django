@@ -2,7 +2,7 @@
 name = "michael-django-project-01"
 version = "0.1.0"
 description = ""
-authors = ["Michael Jakobsen <michael@rpair.co.uk>"]
+authors = ["Michael Jakobsen"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
