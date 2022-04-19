@@ -7,6 +7,7 @@ authors = ["Michael Jakobsen"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^4.0.4"
+djangorestframework = "^3.13.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
