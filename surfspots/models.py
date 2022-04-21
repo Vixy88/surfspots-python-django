@@ -6,10 +6,10 @@ from django.db import models
 class Surfspot(models.Model):
   """  SURFSPOT MODEL """
   
-  name = models.CharField(max_length=100)
-  country = models.CharField(max_length=100)
-  address = models.CharField(max_length=100)
-  postcode = models.CharField(max_length=100)
+  name = models.CharField(max_length=100, default=None)
+  country = models.CharField(max_length=100, default=None)
+  address = models.CharField(max_length=100, default=None)
+  postcode = models.CharField(max_length=100, default=None)
   image = models.CharField(max_length=250, default=None)
   magic_seaweed_link = models.CharField(max_length=250, default=None)
   created = models.DateTimeField(auto_now_add=True)
