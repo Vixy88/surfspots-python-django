@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 
     # 1st Party
     'surfspots',
-
+    'restaurants'
 ]
 
 MIDDLEWARE = [
