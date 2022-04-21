@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 
     # 1st Party
     'surfspots',
-
+    'restaurants'
 ]
 
 MIDDLEWARE = [
@@ -140,6 +140,6 @@ APPEND_SLASH = True
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
+        "rest_framework.permissions.AllowAny",
     ],
 }
