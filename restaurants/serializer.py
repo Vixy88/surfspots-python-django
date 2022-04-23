@@ -2,6 +2,7 @@ from rest_framework import serializers
 from restaurants.models import Restaurant
 
 class RestaurantSerializer(serializers.ModelSerializer):
+  surfspots_nearby = serializers.SlugRelatedField(slug_field="city")
   class Meta:
     model = Restaurant
     fields = '__all__'
