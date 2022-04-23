@@ -23,6 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
+# CUSTOM URL REDIRECTS
+
+LOGIN_REDIRECT_URL = '/surfspots'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -45,6 +49,8 @@ INSTALLED_APPS = [
     # 3rd Party
     'rest_framework',
     # 'corsheaders',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
 
     # 1st Party
     'surfspots',
@@ -140,6 +146,10 @@ APPEND_SLASH = True
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.AllowAny",
+        "rest_framework.permissions.IsAuthenticated",
     ],
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.SessionAuthentication",
+        "rest_framework.authentication.TokenAuthentication"
+    ]
 }
