@@ -1,9 +1,10 @@
 from django.db import models
 
+
 # Create your models here.
 
 class Restaurant(models.Model):
-  """  SURFSPOT MODEL """
+  """  RESTAURANT MODEL """
   
   name = models.CharField(max_length=100, default=None)
   country = models.CharField(max_length=100, default=None)
@@ -17,6 +18,6 @@ class Restaurant(models.Model):
 
   def __str__(self):
     """ Represents the class objects as a string """
-    return f'{self.name} | Country: {self.country}'
+    return f'{self.name} | Country: {self.country} | City: {self.city}'
 
 print(Restaurant)
