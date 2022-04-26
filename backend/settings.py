@@ -108,7 +108,7 @@ DATABASES = {
     #     'PORT': 5432,
     # }
     'default': dj_database_url.config(
-        default='postgres://andru@localhost/90s-baby'
+        default='postgres://michaeljakobsen@localhost/surfspots'
     )
 }
 
