@@ -13,7 +13,8 @@ class Restaurant(models.Model):
   postcode = models.CharField(max_length=100, default=None)
   image = models.CharField(max_length=250, default=None)
   website = models.CharField(max_length=200, default=None)
-  email = models.CharField(max_length=200, default=None)
+  email = models.CharField(max_length=200, null=True, blank=True, default=None)
+  number = models.CharField(max_length=200, null=True, blank=True, default=None)
   google_directions_link = models.CharField(max_length=300, default=None)
   created = models.DateTimeField(auto_now_add=True)
 
