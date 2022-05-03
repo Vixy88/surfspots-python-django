@@ -14,6 +14,7 @@ class Surfspot(models.Model):
   postcode = models.CharField(max_length=100, default=None)
   image = models.CharField(max_length=250, default=None)
   magic_seaweed_link = models.CharField(max_length=250, default=None)
+  google_directions_link = models.CharField(max_length=300, default=None)
   restaurants_nearby = models.ManyToManyField(Restaurant, blank=True, related_name="surfspots_nearby")
   created = models.DateTimeField(auto_now_add=True)
 
