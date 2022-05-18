@@ -21,10 +21,12 @@ The next phase will be to connect the Python backend to a React frontend that gi
 - [postgresql](https://www.postgresql.org/)
 - [Poetry](https://jquery.com)
 
-### Frontend Built With (COMING SOON)
+### Frontend Built With
 
 - [React.js](https://reactjs.org/) "Coming Soon"
 - [Tailwind](https://getbootstrap.com) "Coming Soon"
+
+Link to Frontend > [ReactJS Frontend Repo](https://github.com/Vixy88/the-surf-spots-client)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,10 +78,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [ ] Setup Authentication
-- [ ] Setup additional Models
+- [ ] Setup advanced Authentication
+- [ ] Setup additional User Models
 - [ ] Setup tests
-- [ ] Setup React Frontend
 
 <!-- See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
 
@@ -116,14 +117,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Michael Jakobsen - [@MHJakobsen](https://twitter.com/MHJakobsen) - michael@hyrdle.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Backend Link: [https://github.com/github_username/repo_name](https://github.com/Vixy88/surfspots-python-django)
+Frontend Link: [https://github.com/github_username/repo_name](https://github.com/Vixy88/the-surf-spots-client)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
